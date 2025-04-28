@@ -5,7 +5,7 @@ import plotly.express as px
 import seaborn as sns
 
 #importing the dataset
-df = pd.read_csv("/Users/Ruthf/Downloads/w1920503/project_lifecycle_coursework/Average_Salary_by_Job_Classification.csv")
+df = pd.read_csv(r'Average_Salary_by_Job_Classification.csv')
 
 # Data Cleaning / Preprocessing 
 df.columns = ['Position Title', 'Position Class Code', 'Grade', 'Average Salary', 'Number of Employees']
