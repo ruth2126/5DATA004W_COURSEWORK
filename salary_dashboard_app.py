@@ -95,13 +95,13 @@ st.subheader('Overall KPIs')
 col1, col2, col3 = st.columns(3)
 col1.metric("Total Positions", total_positions)
 col2.metric("Total Employees", total_employees)
-col3.metric("Mean Average Salary", f"£{mean_salary:,.2f}")
+col3.metric("Mean Average Salary", f"${mean_salary:,.2f}")
 
 st.subheader('Filtered KPIs')
 col1, col2, col3 = st.columns(3)
 col1.metric("Filtered Positions", filtered_total_positions)
 col2.metric("Filtered Employees", filtered_total_employees)
-col3.metric("Filtered Mean Salary", f"£{filtered_mean_salary:,.2f}")
+col3.metric("Filtered Mean Salary", f"${filtered_mean_salary:,.2f}")
 
 # Visual 1: Top 20 Positions by Average Salary
 st.subheader('Top 20 Positions by Average Salary (Filtered)')
